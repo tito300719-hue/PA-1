@@ -1,0 +1,142 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+img { max-width: 100%; height: auto; }
+ 
+body {
+  font-family: "Barlow", Arial, sans-serif;
+
+
+
+  color: #333;
+  line-height: 1.4;
+}
+ 
+.pagina {
+    background-image: url("imagenes/fondo.jpg");
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(220, 233, 245, .6);
+  border: 2px solid #b8c9da;
+}
+ 
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #555;
+}
+.encabezado img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+.encabezado h1 {
+  font-size: 30px;
+  color: #0b9be3;
+  background: #fff;
+  padding: 2px 8px;
+  box-shadow: 3px 4px 8px rgba(0,0,0,.35);
+}
+.autor {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+.autor p {
+  background: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 2px 6px;
+}
+ 
+
+h2 {
+  font-size: 17px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #222;
+  margin: 18px 0 14px;
+}
+.intro { font-style: italic; font-size: 14px; color: #444; }
+.intro strong { font-style: normal; color: #111; }
+mark { background: #ffff00; }
+ 
+
+.cuadro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 3px solid #222;
+  padding: 10px;
+  margin-bottom: 26px;
+}
+.tarjeta {
+  flex: 1 1 150px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 12.5px;
+}
+.tarjeta h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 6px 4px;
+  margin-bottom: 12px;
+}
+.tarjeta h3 img { width: 14px; height: auto; }
+.tarjeta p { padding: 0 4px 8px; }
+.tarjeta em { display: block; margin: 0 4px 10px; }
+.tarjeta figure { display: flex; justify-content: center; }
+.tarjeta figure img { width: 70px; }
+ 
+.html { background: #f1ebe9; }
+.css  { background: #e8edf1; }
+.js   { background: #e9ede0; }
+.html h3 { background: #dd4b25; }
+.css h3  { background: #0a77c2; }
+.js h3   { background: #6aa312; }
+ 
+
+.casas {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 24px;
+  background: #fdf3f2;
+  border-radius: 4px;
+  box-shadow: 4px 6px 10px rgba(0,0,0,.4);
+}
+
+.casas img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+}
+ 
+hr { border: 0; border-top: 1px solid #555; margin: 20px 0 0; }
+ 
+.resumen {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-style: italic;
+  font-size: 13px;
+  text-align: center;
+  color: #555;
+  box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
